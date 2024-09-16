@@ -1,0 +1,31 @@
+body{
+    font-family: "Courier Prime", monospace;
+}
+
+.title{
+    font-size: 36px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.container .info{
+    text-align: center;
+}
+
+.container .info img{
+    width: 100px;
+    height: 100px;
+}
+
+.container .info{
+    max-width: 200px;
+}
